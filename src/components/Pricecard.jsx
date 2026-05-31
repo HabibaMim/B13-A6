@@ -7,7 +7,7 @@ const Pricecard = () => {
         <p className='text-[48px] font-[800]'>Simple, Transparent Pricing</p>
         <p className='text-gray-600'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
-      <div className='flex justify-center gap-[30px] pt-[40px] pb-[120px] text-gray-600'>
+      <div className='grid grid-cols-1 md:grid-cols-2 items-center lg:flex justify-center gap-[30px] pt-[40px] pb-[120px] text-gray-600'>
         
         <div>
                  <div className="card w-[380px] h-[448px] rounded-lg bg-[#F2F2F2] shadow-sm">
@@ -50,7 +50,7 @@ const Pricecard = () => {
   <span className="indicator-item indicator-center badge badge-warning rounded-full">Most Popular</span>
   
 </div></div>
-  <div className=" flex justify-between card-body">
+  <div className="flex justify-between card-body">
     
     <div className="flex flex-col justify-between">
       <h2 className="text-3xl font-bold">Pro</h2>
