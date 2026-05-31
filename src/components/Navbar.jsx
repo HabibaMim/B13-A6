@@ -2,7 +2,7 @@ import React from 'react'
 import cartImg from "../assets/shopping-cart.png"
 import logo from "../assets/DigiTools.png"
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
   return (
     <div className=' flex justify-center items-center border-b border-b-gray-100'>
         <div className="w-[75%] navbar bg-base-100">
@@ -27,7 +27,7 @@ const Navbar = () => {
   
   <div className="gap-[16px] navbar-end">
     <div className="indicator">
-  <span className="indicator-item badge badge-primary">12</span>
+  <span className="indicator-item badge badge-primary">{carts.length}</span>
   <img className='p-[12px]' src={cartImg} alt="" />
 </div>
 <button>Login</button>

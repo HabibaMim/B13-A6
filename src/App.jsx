@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar carts={carts}></Navbar>
     <Hero></Hero>
     <Rating></Rating>
     <Tabtitle></Tabtitle>
@@ -33,7 +33,7 @@ function App() {
 <div className="tabs tabs-box bg-transparent ">
   <input type="radio" name="my_tabs_1" className="tab rounded-full w-[100px]" aria-label="Products" defaultChecked
   onClick={()=> setActiveTab("Products")} />
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-[100px]" aria-label="Cart"
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-[100px]" aria-label={`Cart (${carts.length})`}
   onClick={()=> setActiveTab("Cart")} />
   
 </div>

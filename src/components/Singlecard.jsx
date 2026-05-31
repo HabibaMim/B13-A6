@@ -1,10 +1,12 @@
 import React from 'react'
 import check from "../assets/Check.png"
+import { toast } from 'react-toastify'
 
 const Singlecard = ({card, carts, setCarts}) => {
 
     const handleCards = () => {
         setCarts([...carts, card])
+        toast.success("Item added to cart!");
     }
   return (
     <div>
