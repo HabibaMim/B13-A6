@@ -1,16 +1,48 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+██████╗ ██╗ ██████╗ ██╗████████╗ ██████╗  ██████╗ ██╗     ███████╗
+██╔══██╗██║██╔════╝ ██║╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+██║  ██║██║██║  ███╗██║   ██║   ██║   ██║██║   ██║██║     ███████╗
+██║  ██║██║██║   ██║██║   ██║   ██║   ██║██║   ██║██║     ╚════██║
+██████╔╝██║╚██████╔╝██║   ██║   ╚██████╔╝╚██████╔╝███████╗███████║
+╚═════╝ ╚═╝ ╚═════╝ ╚═╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+```
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 About The Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In this project "Digitools Platform" a webpage is made containing product cards of different digital tools. These product cards were made by fetching data from JSON. Functionality of adding product cards to the cart section was implemented in this, also deleting card from cart and clearing cart functionality were added.
+
+---
+
+## ✨ Features
+
+|     | Description Of Features |
+|-----|-------------------------|
+| 📦 | Fetching data from JSON and displaying in product cards |
+| 🛒 | Adding product cards to cart using functionality of "Buy Now" button |
+| 🗑️ | Deleting item from cart using "Remove" button and clearing cart using "Proceed to Checkout" Button |
+
+---
+
+## 🛠️ Tech Stack
+
+```
+├── ⚛️  React.js          — Component-based UI architecture
+├── 🎨  Tailwind CSS       — Utility-first styling
+├── 🌼  DaisyUI            — Pre-built Tailwind component library
+├── 📜  JavaScript (ES6+)  — Core logic & interactivity
+├── 🔔  React-Toastify     — Toast notifications (NPM)
+└── 📁  JSON               — Local product data source
+```
