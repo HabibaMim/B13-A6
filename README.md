@@ -33,16 +33,6 @@ In this project "Digitools Platform" a webpage is made containing product cards 
 
 ---
 
-## ✨ Features
-
-|     | Description Of Features |
-|-----|-------------------------|
-| 📦 | Fetching data from JSON and displaying in product cards |
-| 🛒 | Adding product cards to cart using functionality of "Buy Now" button |
-| 🗑️ | Deleting item from cart using "Remove" button and clearing cart using "Proceed to Checkout" Button |
-
----
-
 ## 🛠️ Tech Stack
 
 ```
@@ -53,3 +43,13 @@ In this project "Digitools Platform" a webpage is made containing product cards 
 ├── 🔔  React-Toastify     — Toast notifications (NPM)
 └── 📁  JSON               — Local product data source
 ```
+
+## ✨ Features
+
+|     | Description Of Features |
+|-----|-------------------------|
+| 📦 | Fetching data from JSON and displaying in product cards |
+| 🛒 | Adding product cards to cart using functionality of "Buy Now" button |
+| 🗑️ | Deleting item from cart using "Remove" button and clearing cart using "Proceed to Checkout" Button |
+
+---
