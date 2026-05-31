@@ -23,7 +23,7 @@ const Navbar = ({carts}) => {
     </div>
    
   
-    <img src={logo} alt="" />
+    <img className='hidden md:block' src={logo} alt="" />
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -35,7 +35,7 @@ const Navbar = ({carts}) => {
     </ul>
   </div>
   
-  <div className="md:gap-[16px] navbar-end">
+  <div className="gap-[16px] navbar-end">
     <div className="indicator">
   <span className="indicator-item badge badge-primary">{carts.length}</span>
   <img className='p-[12px]' src={cartImg} alt="" />
