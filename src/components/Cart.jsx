@@ -21,7 +21,7 @@ const Cart = ({carts, setCarts}) => {
             <div className='text-[24px] font-bold pb-[16px]'>Your Cart</div>
 
             {
-                carts.length === 0 ? <p>Cart is empty.</p> : <>
+                carts.length === 0 ? <div className='flex justify-center items-center h-[300px] text-[40px]'><p className='text-gray-500'>Your cart is empty.</p></div> : <>
                    <div className='space-y-5 '>
                     
       {carts.map(item =><div className='flex justify-between items-center p-[20px] bg-[#F9FAFC] rounded-l-lg'> <div key={item.id}>
