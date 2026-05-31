@@ -1,7 +1,11 @@
 import React from 'react'
 
-const Cart = ({carts}) => {
+const Cart = ({carts, setCarts}) => {
     const totalPrice= carts.reduce((sum,item)=>sum+item.price,0)
+
+    const handlePayment = () =>{
+        setCarts([])
+    }
   return (
     <div className=' mt-[40px] mb-[120px] flex justify-center items-center'>
         <div className='w-[75%] border border-gray-200 rounded-lg p-[40px]'>
@@ -16,7 +20,7 @@ const Cart = ({carts}) => {
         <p className='text-gray-600'>Total:</p>
         <p className='text-[24px] font-bold'>${totalPrice}</p></div>
       </div>
-      <button className='btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] w-full text-white rounded-full'>Proceed to Checkout</button>
+      <button onClick={handlePayment} className='btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] w-full text-white rounded-full'>Proceed to Checkout</button>
     </div>
     </div>
   )
