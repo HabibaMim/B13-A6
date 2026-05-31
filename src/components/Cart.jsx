@@ -16,7 +16,7 @@ const Cart = ({carts, setCarts}) => {
     }
   return (
     <div className=' mt-[40px] mb-[120px] flex justify-center items-center'>
-        <div className='w-[75%] border border-gray-200 rounded-lg p-[40px]'>
+        <div className='md:w-[75%] border border-gray-200 rounded-lg p-[40px]'>
             
             <div className='text-[24px] font-bold pb-[16px]'>Your Cart</div>
 

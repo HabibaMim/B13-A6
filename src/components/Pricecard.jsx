@@ -4,7 +4,7 @@ const Pricecard = () => {
   return (
     <div>
       <div className='flex flex-col justify-center items-center pt-[120px]'>
-        <p className='text-[48px] font-[800]'>Simple, Transparent Pricing</p>
+        <p className='text-[48px] font-[800] text-center'>Simple, Transparent Pricing</p>
         <p className='text-gray-600'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 items-center lg:flex justify-center gap-[30px] pt-[40px] pb-[120px] text-gray-600'>
