@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Data Analyzer AI",
+    "description": "Analyze data effortlessly.\nGet insights within seconds.",
+    "price": 25,
+    "period": "month",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Data visualization", "Trend detection", "CSV import"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920244.png"
+  },
+  {
+    "id": 2,
+    "name": "Productivity Planner AI",
+    "description": "Organize your daily tasks smartly.\nBoost focus and efficiency.",
+    "price": 12,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Task scheduling", "Smart reminders", "Goal tracking"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2387/2387635.png"
+  },
+  {
+    "id": 3,
+    "name": "Video Script Generator",
+    "description": "Generate engaging video scripts.\nIdeal for YouTube and marketing.",
+    "price": 18,
+    "period": "month",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Hook generation", "Scene breakdown", "Tone control"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3074/3074767.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Logo Maker",
+    "description": "Design unique logos instantly.\nPerfect for startups and brands.",
+    "price": 8,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["AI-generated logos", "High-resolution export", "Custom branding"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4090/4090458.png"
+  },
+  {
+    "id": 5,
+    "name": "SEO Blog Writer",
+    "description": "Create SEO-optimized articles.\nRank higher on search engines easily.",
+    "price": 12,
+    "period": "month",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Keyword optimization", "Plagiarism-free content", "Blog templates"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1157/1157109.png"
+  },
+  {
+    "id": 6,
+    "name": "Code Assistant AI",
+    "description": "Generate and fix code faster.\nSupports multiple programming languages.",
+    "price": 20,
+    "period": "month",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Bug fixing", "Code autocomplete", "Multi-language support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/6062/6062646.png"
+  },
+  {
+    "id": 7,
+    "name": "Social Media Caption AI",
+    "description": "Write viral captions instantly.\nBoost engagement across platforms.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Hashtag suggestions", "Tone customization", "Multi-platform support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2168/2168328.png"
+  },
+  {
+    "id": 8,
+    "name": "AI Image Generator",
+    "description": "Generate stunning images from text.\nHigh-quality visuals in seconds.",
+    "price": 15,
+    "period": "month",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Text-to-image AI", "HD downloads", "Style presets"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3875/3875172.png"
+  },
+  {
+    "id": 9,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes instantly.\nOptimized for ATS and recruiters.",
+    "price": 9,
+    "period": "month",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["ATS optimization", "100+ templates", "PDF export"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/909/909212.png"
+  }
+]
