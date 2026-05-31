@@ -12,7 +12,7 @@ const Cart = ({carts, setCarts}) => {
          const handleDelete = (item) => {
             const filteredArray =carts.filter((c) => c.id !== item.id);
             setCarts(filteredArray);
-            toast.error("Item deleted!");
+            toast.success("Item deleted!");
     }
   return (
     <div className=' mt-[40px] mb-[120px] flex justify-center items-center'>

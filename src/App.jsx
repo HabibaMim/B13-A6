@@ -31,10 +31,10 @@ function App() {
      <div className='mt-[16px] flex justify-center'>
       {/* name of each tab group should be unique */}
 <div className="tabs tabs-box bg-transparent ">
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-[100px]" aria-label="Products" defaultChecked
-  onClick={()=> setActiveTab("Products")} />
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-[100px]" aria-label={`Cart (${carts.length})`}
-  onClick={()=> setActiveTab("Cart")} />
+  <input type="radio" name="my_tabs_1"  aria-label="Products" defaultChecked
+  onClick={()=> setActiveTab("Products")} className={activeTab === "Products" ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white w-[100px] tab rounded-full" : "bg-white tab w-[100px] rounded-full"} />
+  <input type="radio" name="my_tabs_1" aria-label={`Cart (${carts.length})`}
+  onClick={()=> setActiveTab("Cart")} className={activeTab === "Cart" ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white w-[100px] tab rounded-full" : "bg-white tab w-[100px] rounded-full"} />
   
 </div>
     </div>
